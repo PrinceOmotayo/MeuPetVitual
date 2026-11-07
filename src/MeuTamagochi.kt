@@ -13,7 +13,7 @@ class BichinhoVirtual(
     var higiene: Int = 100
         set(value) {field = value.coerceIn(0,100)}
 
-
+//funções
     fun alimentar() {
         nivelDeFome -= 10
         vtdbanheiro += 15

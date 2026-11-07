@@ -3,7 +3,7 @@ fun main() {
     println("Digite o nome do seu animal de estimação:")
     val nome = readln()
     val pet = BichinhoVirtual(nomePet = nome) //Criei um objeto da classe para manipular dentro da função
-
+//bora pro jogo
     while (true) {
         println("\nEscolha uma ação:")
         println("1. Alimentar ${pet.nomePet}")
